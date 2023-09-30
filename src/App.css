@@ -11,24 +11,7 @@
   /* grid-gap: 10px; */
 }
 
-.header {
-  grid-area: h; /* Условные имена */
-  background-color: rgb(164, 247, 164);
-}
 
-.header img {
-  width: 20px;
-}
-
-.nav {
-  grid-area: n; /* Условные имена */
-  background-color:burlywood;
-}
-
-.content {
-  grid-area: c; /* Условные имена */
-  background-color:cornflowerblue;
-}
 
 
 

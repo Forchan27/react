@@ -1,0 +1,8 @@
+.header {
+   grid-area: h; /* Условные имена */
+   background-color: rgb(164, 247, 164);
+ }
+ 
+ .header img {
+   width: 20px;
+ }
