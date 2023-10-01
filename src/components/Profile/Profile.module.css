@@ -3,11 +3,3 @@
    background-color:cornflowerblue;
  }
 
-.item {
-  color:black;
-}
-
-.item.active {
-  color:white;
-  font-size: 20px;
-}
