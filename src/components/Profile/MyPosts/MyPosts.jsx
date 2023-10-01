@@ -1,16 +1,15 @@
 import s from "./MyPosts.module.css"
-import MyPost from "./Post/MyPost"
+import Post from "./Post/MyPost"
 
 const MyPosts = () => {
+
    return (
         <div className= {s.item}>
           My posts
           <div className= {s.item}>New post</div>
           <div className = {s.posts}>
-            <MyPost/>
-            <MyPost/>
-            <MyPost/>
-            <MyPost/>
+            <Post message='Hi, how are you?' count='15'/>
+            <Post message='Its my first post' count='20'/>
           </div>
         </div>
    )
