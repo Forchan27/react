@@ -4,10 +4,12 @@
  }
 
 .item {
-  color: white;
+  color:white;
+  text-decoration: none;
 }
 
-.item.active {
+.active {
   color: gold;
   font-size: 20px;
+  text-decoration: none;
 }
